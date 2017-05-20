@@ -1,0 +1,14 @@
+---
+spring:
+  profiles:
+    active: dev
+  application:
+    name: first-spring-cloud
+---
+ spring:
+  profiles:
+    active: uat
+  application:
+    name: first-spring-cloud
+  
+  
